@@ -1,6 +1,9 @@
 """
 arm_control.py
 Simple functions to move a pretend robotic arm.
+pick_up(item) prints that the robot is picking up the item.
+move_to(x, y) prints the target location.
+release() prints that the item is dropped.
 """
 
 def pick_up(item):
