@@ -1,6 +1,8 @@
 """
 led_blink.py
 Pretend LED blinking (console print).
+Uses time.sleep(0.5) to pause for half a second.
+Loops a number of times and prints ON/OFF in sequence.
 """
 
 import time
