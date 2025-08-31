@@ -1,6 +1,11 @@
 """
 simple_path.py
 Basic shortest path in a grid using BFS (no weights).
+Finds the shortest path from the top-left corner (0,0) to the bottom-right (3,3) in a small 4×4 grid. Some squares are blocked by obstacles (marked with 1).
+Uses a simple search algorithm BFS = Breadth-First Search.
+Starts at (0,0), explores all possible moves step by step.
+Keeps track of visited spots so it doesn’t get stuck.
+Stops when it reaches the goal, printing the path (list of coordinates).
 """
 
 from collections import deque
